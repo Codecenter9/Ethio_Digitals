@@ -1,2 +1,53 @@
-@import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@import "tw-animate-css";
+html, body {
+  overflow: -moz-scrollbars-none; 
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.navbar_gradient {
+  background: linear-gradient(
+    90deg, 
+    rgba(4, 8, 18, 1) 0%, 
+    rgba(20, 30, 50, 0.95) 35%, 
+    rgba(40, 60, 80, 0.9) 65%, 
+    rgba(4, 8, 18, 1) 100%
+   
+  );
+   color:rgb(31, 1, 28);
+}
+
+:root {
+  --lanx-bg:        #060b17;       /* page base */
+  --lanx-bg-dark:   #040812;
+  --lanx-grid:      rgba(59, 130, 246, 0.085);
+
+  --lanx-cobalt:    #3069ff;
+  --lanx-indigo:    #4f46e5;
+  --lanx-royal:     #2546ff;
+  --lanx-azure:     #21a1ff;
+  --lanx-violet:    #6d28d9;
+}
+
+
+
+
+.card_shadow
+{
+box-shadow: -13px -18px 206px 82px rgba(12,2,56,0.75) inset;
+-webkit-box-shadow: -13px -18px 206px 82px rgba(12,2,56,0.75) inset;
+-moz-box-shadow: -13px -18px 206px 82px rgba(12,2,56,0.75) inset;
+}
